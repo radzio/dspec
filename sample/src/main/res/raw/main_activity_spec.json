@@ -20,6 +20,12 @@
           "from": "LEFT" },
         { "offset": 0,
           "size": 16,
-          "from": "RIGHT" }
+          "from": "RIGHT" },
+        { "offset": 0,
+          "size": 16,
+          "from": "BOTTOM" },
+        { "offset": 0,
+          "size": 16,
+          "from": "TOP" }
     ]
 }

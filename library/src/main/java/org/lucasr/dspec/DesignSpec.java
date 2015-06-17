@@ -16,17 +16,10 @@
 
 package org.lucasr.dspec;
 
-import android.content.Context;
 import android.content.res.Resources;
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.ColorFilter;
-import android.graphics.Paint;
-import android.graphics.PixelFormat;
-import android.graphics.Rect;
+import android.graphics.*;
 import android.graphics.drawable.Drawable;
 import android.view.View;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -491,12 +484,12 @@ public class DesignSpec extends Drawable {
                     break;
 
                 case RIGHT:
-                    position1 = width - spacing.offset + spacing.size;
+                    position1 = width - (spacing.offset + spacing.size);
                     position2 = width - spacing.offset;
                     break;
 
                 case BOTTOM:
-                    position1 = height - spacing.offset + spacing.size;
+                    position1 = height - (spacing.offset + spacing.size);
                     position2 = height - spacing.offset;
                     break;
 
